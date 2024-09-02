@@ -1,0 +1,9 @@
+def letra_a(string):
+    return string.lower().count('a')
+
+
+
+entrada = input("Inserir uma string: ")
+
+quantidade_a = letra_a(entrada)
+print(f"A lentra 'a' aparece {quantidade_a} vez(es) na string")
